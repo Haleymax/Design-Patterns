@@ -1,2 +1,4 @@
 python/.idea
 python/Singleton/__pycache__
+.idea
+python/FactoryMethod/__pycache__
