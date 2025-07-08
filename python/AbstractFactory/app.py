@@ -34,4 +34,4 @@ class Application:
         self.button.render()
         self.checkbox.render()
         self.button.on_click()
-        self.checkbox.on_check()
+        self.checkbox.on_click()
