@@ -2,3 +2,6 @@ python/.idea
 python/Singleton/__pycache__
 .idea
 python/FactoryMethod/__pycache__
+python/AbstractFactory/__pycache__
+python/AbstractFactory/factories/__pycache__
+python/AbstractFactory/gui_elements/__pycache__
