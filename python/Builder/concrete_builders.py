@@ -9,18 +9,20 @@ class GamingComputerBuilder(ComputerBuilder):
         self._computer.add_component("CPU", "Intel Core i9-13900K")
 
     def build_ram(self) -> None:
-        # 添加大容量高速存储
+        # 添加大容量高速内存
         self._computer.add_component("RAM", "32GB DDR5 5600MHz")
 
     def build_storage(self) -> None:
         # 添加大容量高速固态硬盘
         self._computer.add_component("Storage", "2TB NVMe SSD")
 
+    def build_gpu(self) -> None:
+        # 添加高性能独立显卡
+        self._computer.add_component("GPU", "NVIDIA RTX 4090")
+
     def build_monitor(self) -> None:
         # 添加大尺寸高刷新率显示器
         self._computer.add_component("Monitor", "32-inch 4K 144Hz")
-
-
 
 
 class OfficeComputerBuilder(ComputerBuilder):
@@ -34,5 +36,16 @@ class OfficeComputerBuilder(ComputerBuilder):
         # 添加中等容量内存
         self._computer.add_component("RAM", "16GB DDR4 3200MHz")
 
+    def build_storage(self) -> None:
+        # 添加中等容量固态硬盘
+        self._computer.add_component("Storage", "512GB SSD")
+
+    def build_gpu(self) -> None:
+        # 使用集成显卡
+        self._computer.add_component("GPU", "Integrated Graphics")
+
+    def build_monitor(self) -> None:
+        # 添加普通办公显示器
+        self._computer.add_component("Monitor", "24-inch Full HD")
     
 
