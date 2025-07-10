@@ -24,6 +24,11 @@ class ComputerBuilder(ABC):
         pass
 
     @abstractmethod
+    def build_ram(self) -> None:
+        """构建内存组件"""
+        pass
+
+    @abstractmethod
     def build_storage(self) -> None:
         """构建存储组件"""
         pass
