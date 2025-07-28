@@ -1,7 +1,8 @@
 package main
 
-import "golang/Singleton"
+import "golang/FactoryMethod"
 
 func main() {
-	Singleton.Demo()
+	//Singleton.Demo()
+	FactoryMethod.Demo()
 }
