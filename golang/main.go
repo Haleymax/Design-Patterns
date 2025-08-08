@@ -1,9 +1,10 @@
 package main
 
-import "golang/AbstractFactory"
+import "golang/BuilderPattern"
 
 func main() {
 	//Singleton.Demo()
 	//FactoryMethod.Demo()
-	AbstractFactory.Demo()
+	//AbstractFactory.Demo()
+	BuilderPattern.Demo()
 }
