@@ -8,3 +8,4 @@ python/AbstractFactory/gui_elements/__pycache__
 python/Builder/__pycache__
 python/Adapter/__pycache__
 python/Decorator/__pycache__
+python/ProxyPattern/__pycache__
